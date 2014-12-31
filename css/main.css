@@ -76,6 +76,7 @@
 
    .sidebar-small{
    	width:70px;
+   	z-index:100;
    	position:fixed;
    }
    #button img{
@@ -131,11 +132,13 @@
 
    }
 
-   @media (max-width:630px) {
-
+@media (max-width:768px){
    	#main{
-		padding-left:25px;
+		padding-left:90px;
    	}
+}
+
+   @media (max-width:630px) {
    	.tile {
    		width: 100%;
    	}
