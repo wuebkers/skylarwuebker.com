@@ -4,7 +4,7 @@ $('#menu-btn').sidr({
 });
 
 var $container = $('.items').isotope({
-	itemselector: 'li',
+	itemselector: 'li'
 });
 
 $('.filters').on( 'click', 'a.filter', function() {
