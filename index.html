@@ -10,18 +10,35 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="css/jquery.sidr.light.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <style>
+        #button {
+            display: none;
+        }
+        @media only screen and (max-width: 767px){
+            #button {
+                display: block;
+            }
+        }
+
+        #mobile-nav{
+            display:none;
+        }
+    </style>
 </head>
 <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
-            <nav id="nav" class="col-sm-3">
+
+            <!-- STANDARD NAVIGATION -->
+            <nav id="nav" class="col-sm-3 hidden-xs">
                 <div class="logo"><img src="photos/logo.png"></div>
-                <ul id="filters">
+                <ul class="filters">
                     <li><a class="filter" href="#" data-filter="*">HOME</a></li>
                     <li><a class="filter" href="#identity" data-filter=".identity">IDENTITY</li></a> 
                     <li><a class="filter" href="#web" data-filter=".web">WEB</a></li>
@@ -32,8 +49,33 @@
                 <article>&copy; Skylar Wuebker 2014</article>
             </nav>
 
-            <section id="main" class="content col-xs-12 col-sm-9">
-                <div class="window">
+            <!-- MOBILE NAVIGATION TRIGGER -->
+            <aside id="button" class="sidebar-small pull-left">
+                    <ul class="list-unstyled filters">
+                        <li><a id="menu-btn" href="#mobile-nav"><img src="photos/button.png"></a></li>
+                        <li><a class="filter" href="#identity" data-filter=".identity"><img src="photos/identity_icon.png"></a></li>
+                        <li><a class="filter" href="#web" data-filter=".web"><img src="photos/web_icon.png"></a></li>
+                        <li><a class="filter" href="#print" data-filter=".print"><img src="photos/print_icon.png"></a></li>
+                        <li><a href="#contact"><img src="photos/contact_icon.png"></a></li>
+                        <li><a href="photos/SkylarResume.pdf"><img src="photos/resume_icon.png"></a></li>
+                    </ul>
+            </aside>
+
+            <!-- MOBILE NAVIGATION -->
+            <nav id="mobile-nav">
+                <div class="logo"><a id="menu-btn" class="filter" href="#" data-filter="*"><img src="photos/mobile_logo.png"></div>
+                <ul class="filters">
+                    <li><a class="filter" href="#identity" data-filter=".identity">IDENTITY</li></a> 
+                    <li><a class="filter" href="#web" data-filter=".web">WEB</a></li>
+                    <li><a class="filter" href="#print" data-filter=".print">PRINT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="photos/SkylarResume.pdf">RESUME</a></li>
+                </ul>
+                <article>&copy; Skylar Wuebker 2014</article>
+            </nav>
+
+            <section id="main" class="content col-xs-10 col-sm-9">
+                <div class="window row">
                     <ul class="items list-unstyled">
                         <li class="tile web"><img src="photos/tiles/crystal_tile.png"></li>
                         <li class="tile print"><img src="photos/tiles/nick_tile.png"></li>
@@ -53,6 +95,7 @@
 
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/vendor/isotope.pkgd.min.js"></script>
+        <script src="js/vendor/jquery.sidr.min.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
