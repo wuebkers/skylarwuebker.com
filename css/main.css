@@ -2,176 +2,176 @@
    Author's custom styles
    ========================================================================== */
 
-@charset "UTF-8";
-/* CSS Document */
+   @charset "UTF-8";
+   /* CSS Document */
 
-body {background-color:#FFF;
-		font-family: helvetica,arial, san-serif;
-		margin: 0px;
-		padding: 0px;	
-}
+   body {background-color:#FFF;
+   	font-family: helvetica,arial, san-serif;
+   	margin: 0px;
+   	padding: 0px;
+   }
 
-/*Effects*/
+   html, body{
+   	height:100%;
+   }
 
-
-@-webkit-keyframes fadein{
-  from {opacity:1;}
-  to{opacity:0;}
-}
-
-@-webkit-keyframes load {
-  from {-webkit-transform: translateX(-100%);}
-  to {-webkit-transform: translateX(0%);}
-}
-
-/* Navigation Properties*/
-
-#nav {
-	position:fixed;
-	height: 100%;
-	width: 260px;
-	border-right:#0CF solid 1px;
-	background-color: #fff;
-}
-
-.logo {
-	padding: 50px;
-}
-
-ul {
-	margin-top: 50px;
-	margin-left: 10px;
-	width:100%;
-}
-
-li {
-	text-decoration:none;
-	list-style:none;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:18px;
-	padding: 10px;
-	width:100%;
-}
-li:active {
-	color: #39C;
-}
-
-a {
-	text-decoration:none;
-	list-style:none;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:18px;
-	padding: 15px;
-	color:#CCC;
-	width:100%;
-}
-a:hover {
-	color: #39C;
-	width:100%;
-	-o-transition:color .2s ease-out, background .2s ease-in;
-    -ms-transition:color .2s ease-out, background .2s ease-in;
-    -moz-transition:color .2s ease-out, background .2s ease-in;
-    -webkit-transition:color .2s ease-out, background .2s ease-in;
-}
-a:active {
-	color:#39C;
-}
-
-article {
-	margin-top: 60%;
-	margin-left:15%;
-	font-size: 12px;
-	color:#666;
-}
-
-/* Main Window */
-
-#main {
-	float:right;
-	height:100%;
-	margin-left:260px;
-	overflow:scroll;
-	padding:0;
-}
-
-.window {
-	overflow:scroll;
-}
+   /*Effects*/
 
 
-/*Tile Properties*/
+   @-webkit-keyframes fadein{
+   	from {opacity:1;}
+   	to{opacity:0;}
+   }
 
-.tile {
-	width: 33.33%;
-	float:left;
-	overflow:hidden;
-}
+   @-webkit-keyframes load {
+   	from {-webkit-transform: translateX(-100%);}
+   	to {-webkit-transform: translateX(0%);}
+   }
 
-.tile img {
-	-webkit-animation-name: load;
-	-webkit-animation-duration: .3s;
-	-webkit-animation-iteration-count: 1;
-	margin-right: 50px;
-	width:100%;
-}
+   /* Navigation Properties*/
 
-.tile:hover {
-	background-image:url(photos/background.png);
-	background-position:center;
-	background-size:100%;
-}
+   #nav {
+   	position:fixed;
+   	height: 100%;
+   	// width: 260px;
+   	border-right:#0CF solid 1px;
+   	background-color: #fff;
+   }
 
-.tile img:hover {
-	opacity:.2;
-	background-color:#39C;
-	-webkit-animation-name:fadein;
-	-webkit-animation-duration: .2s;
-}
+   .logo {
+   	padding: 50px;
+   }
 
+   nav ul {
+   	margin-top: 50px;
+   	margin-left: 10px;
+   	width:100%;
+   }
 
+   nav li {
+   	text-decoration:none;
+   	list-style:none;
+   	font-family:Arial, Helvetica, sans-serif;
+   	font-size:18px;
+   	padding: 10px;
+   	width:100%;
+   }
+   nav li:active {
+   	color: #39C;
+   }
 
-/* Media Queries */
+   nav a {
+   	text-decoration:none;
+   	list-style:none;
+   	font-family:Arial, Helvetica, sans-serif;
+   	font-size:18px;
+   	padding: 15px;
+   	color:#CCC;
+   	width:100%;
+   }
+   nav a:hover {
+   	color: #39C;
+   	width:100%;
+   	-o-transition:color .2s ease-out, background .2s ease-in;
+   	-ms-transition:color .2s ease-out, background .2s ease-in;
+   	-moz-transition:color .2s ease-out, background .2s ease-in;
+   	-webkit-transition:color .2s ease-out, background .2s ease-in;
+   }
+   nav a:active {
+   	color:#39C;
+   }
+
+   article {
+   	margin-top: 60%;
+   	margin-left:15%;
+   	font-size: 12px;
+   	color:#666;
+   }
+
+   /* Main Window */
+
+   #main {
+   	float:right;
+   	height:100%;
+   	padding:0;
+   }
+
+   .window {
+   }
+
+   /*Tile Properties*/
+
+   .tile {
+   	width: 33.33%;
+   	float:left;
+   	overflow:hidden;
+   }
+
+   .tile img {
+   	-webkit-animation-name: load;
+   	-webkit-animation-duration: .3s;
+   	-webkit-animation-iteration-count: 1;
+   	margin-right: 50px;
+   	width:100%;
+   }
+
+   .tile:hover {
+   	background-image:url(photos/background.png);
+   	background-position:center;
+   	background-size:100%;
+   }
+
+   .tile img:hover {
+   	opacity:.2;
+   	background-color:#39C;
+   	-webkit-animation-name:fadein;
+   	-webkit-animation-duration: .2s;
+   }
 
 
 
-@media (max-width:1050px) {
-	.tile {
-	width:50%;
-	}
-	
-}
+   /* Media Queries */
 
-@media (max-width:630px) {
-	.tile {
-	width: 100%;
-	}
-	
-	#main {
-	margin-left:160px;	
-	}
-	
-	#nav {
-	width:160px;	
-	}
-	
-	ul {
-	margin-left:0;	
-	}
-	
-	#nav li {
-	padding-left:5px;	
-	}
-	
-	a {
-	padding-left:0;	
-	}
-	
-	.logo {
-	padding-left: 5px;	
-	}
-	
-	article {
-	padding-left: 0;
-	margin-left: 15px;	
-	}
-}
+
+
+   @media (max-width:1050px) {
+   	.tile {
+   		width:50%;
+   	}
+
+   }
+
+   @media (max-width:630px) {
+   	.tile {
+   		width: 100%;
+   	}
+
+   	#main {
+   		margin-left:160px;	
+   	}
+
+   	#nav {
+   		width:160px;	
+   	}
+
+   	ul {
+   		margin-left:0;	
+   	}
+
+   	#nav li {
+   		padding-left:5px;	
+   	}
+
+   	a {
+   		padding-left:0;	
+   	}
+
+   	.logo {
+   		padding-left: 5px;	
+   	}
+
+   	article {
+   		padding-left: 0;
+   		margin-left: 15px;	
+   	}
+   }
