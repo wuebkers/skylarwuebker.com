@@ -31,3 +31,19 @@ $('.sidr').on( 'click', 'a.sidr-class-filter', function() {
 	var filterValue = $(this).attr('data-filter');
 	$container.isotope({ filter: filterValue });
 });
+
+$(document).ready(function() {
+	$(".fancybox").fancybox({
+		closeClick : true,
+		openEffect : 'fade',
+		helpers : {
+			title : {
+				type : 'inside'
+			},
+			overlay : {
+				closeClick : true,
+				showEarly  : true
+			}
+		}
+	});
+});
