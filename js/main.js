@@ -33,17 +33,30 @@ $('.sidr').on( 'click', 'a.sidr-class-filter', function() {
 });
 
 $(document).ready(function() {
-	$(".fancybox").fancybox({
-		closeClick : true,
-		openEffect : 'fade',
-		helpers : {
-			title : {
-				type : 'inside'
-			},
-			overlay : {
-				closeClick : true,
-				showEarly  : true
+	$(".fancybox")
+		.attr('rel', 'gallery')
+		.fancybox({
+			beforeLoad: function() {
+	            var el, id = $(this.element).data('title-id');
+
+	            if (id) {
+	                el = $('#' + id);
+	            
+	                if (el.length) {
+	                    this.title = el.html();
+	                }
+	            }
+	        },
+			closeClick : true,
+			openEffect : 'fade',
+			helpers : {
+				title : {
+					type : 'inside'
+				},
+				overlay : {
+					closeClick : true,
+					showEarly  : true
+				}
 			}
-		}
-	});
+		});
 });
