@@ -17,33 +17,42 @@
    html, body{
    	height:100%;
    }
+   .clear{
+	 clear:both;  
+   }
 
    /* Navigation Properties*/
    #nav {
    	position:fixed;
-   	height: 100%;
-   	// width: 260px;
-   	border-right:#0CF solid 1px;
+   	height: 60px;
+   	width: 100%;
    	background-color: #fff;
+	z-index:1000;
    }
 
    .logo {
-   	padding: ;
+	width:50px;
+	height:50px;
+   	margin:5px;
+	float:right;
+	background-image:url(../photos/button.png);
+	background-size:cover;
+	
    }
 
    nav ul {
-   	margin-top: 50px;
    	margin-left: 10px;
    	width:100%;
    }
 
    nav li {
    	text-decoration:none;
+	float:left;
    	list-style:none;
    	font-family:Arial, Helvetica, sans-serif;
    	font-size:18px;
+		margin-top:-40px;
    	padding: 10px;
-   	width:100%;
    }
    nav li:active {
    	color: #39C;
@@ -118,15 +127,30 @@
    #main {
    	float:right;
    	height:100%;
+	width:100%;
+	padding:0;
    }
 
    .window {
+	   width:100%;
+	   background: url(../photos/sky-blur.jpg) fixed;
+   }
+   .list-unstyled {
+	   margin-left:6%;
+	   margin-top:30px;
+	   }
+   
+   .welcome {
+	 height:100%;
+	 width:100%;
+	 background: url(../photos/sky.jpg) fixed;
+	 background-size:cover;  
    }
 
    /*Tile Properties*/
 
    .tile {
-   	width: 33.33%;
+   	width: 32%;
    	float:left;
    	overflow:hidden;
    	background-image:url(../photos/background.png);
@@ -165,22 +189,7 @@
    	}
 
    }
-   
-@media (min-width:768px){
-   	#main{
-		padding-left:280px;
-   	}
-	
-	#nav {
-   		width:280px;
-		z-index:100;	
-   	}
-	
-	.logo {
-		margin-left: 50px;
-		margin-top: 30px;
-	}
-}
+  
 
 @media (max-width:768px){
    	#main{
