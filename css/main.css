@@ -258,15 +258,29 @@ transition: opacity 0.3s;
    /*About*/
    .about {
 	 width:100%;
-	 height:600px;
+	 height:450px;
+	 padding-top:20px;
 	 margin-top:600px;
-	 background-color:#fff;  
+	 background-color:#fff;
+	 overflow:hidden;  
+   }
+   
+   .self {
+	 height:400px;
+	 overflow:hidden;
+	 background-image:url(../photos/face.png);
+	 background-size:cover;  
    }
    
    .pitch {
 	 padding:1.5em;
 	 margin-top:10px;
 	 line-height: 1.6em;  
+   }
+   
+   h4 {
+	 text-align:center;
+	 font-size:3em;  
    }
    
    /*Tile Properties*/
