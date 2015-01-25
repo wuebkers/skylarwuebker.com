@@ -258,8 +258,8 @@ transition: opacity 0.3s;
    /*About*/
    .about {
 	 width:100%;
-	 height:450px;
-	 padding-top:20px;
+	 height:520px;
+	 padding-top:70px;
 	 margin-top:600px;
 	 background-color:#fff;
 	 overflow:hidden;  
@@ -281,6 +281,18 @@ transition: opacity 0.3s;
    h4 {
 	 text-align:center;
 	 font-size:3em;  
+   }
+   
+   .skills {
+	height:400px;
+	overflow:hidden;
+	float: right;
+	margin-top: -480px;   
+   }
+   
+   .skills img {
+	 margin-left:5.5em;
+	 margin-top:2.5em;
    }
    
    /*Tile Properties*/
