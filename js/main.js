@@ -67,8 +67,10 @@ $(document).scroll(function(){
     {   
        $('.nav').css({"background":"white"});
 	   $('.nav').css({"box-shadow":"3px 3px 20px rgba(0,0,0,0.5)"});
+	   $('.logo').css({"background-image":"url(../photos/button.png)"});
     } else {
        $('.nav').css({"background":"transparent"});
 	   $('.nav').css({"box-shadow":"3px 3px 20px rgba(0,0,0,0)"});
+	   $('.logo').css({"background-image":"url(../photos/button-white.png)"});
     }
 });
