@@ -26,8 +26,7 @@
    	position:fixed;
    	height: 60px;
    	width: 100%;
-   	background-color: #fff;
-	z-index:1000;
+   	z-index:1000;
 	moz-transition: background-color 0.2s ease-in-out;
 	-webkit-transition: background-color 0.2s ease-in-out;
 	-webkit-transition-property: background-color;
@@ -42,7 +41,7 @@
    	margin:5px;
 	margin-right:25px;
 	float:right;
-	background-image:url(../photos/button.png);
+	background-image:url(../photos/button-white.png);
 	background-size:cover;
 	
    }
