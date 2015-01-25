@@ -61,14 +61,14 @@ $(document).ready(function() {
 });
 
 var a = $(".nav").offset().top;
-var b = $(".logo").offset().top;
 
 $(document).scroll(function(){
     if($(this).scrollTop() > a)
     {   
        $('.nav').css({"background":"white"});
+	   $('.nav').css({"box-shadow":"3px 3px 20px rgba(0,0,0,0.5)"});
     } else {
        $('.nav').css({"background":"transparent"});
-	   $('.logo').css({"background":"url(../photos/button-white.png"});
+	   $('.nav').css({"box-shadow":"3px 3px 20px rgba(0,0,0,0)"});
     }
 });
