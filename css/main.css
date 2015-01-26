@@ -259,8 +259,6 @@ transition: opacity 0.3s;
    .about {
 	 width:100%;
 	 height:520px;
-	 padding-top:70px;
-	 margin-top:600px;
 	 background-color:#fff;
 	 overflow:hidden;  
    }
@@ -289,13 +287,13 @@ transition: opacity 0.3s;
    }
    
    .skills {
-	height:400px;
+	height:100%;
 	overflow:hidden;  
    }
    
    .skills img {
 	 margin-left:5.5em;
-	 margin-top:2.5em;
+	 margin-top:3.5em;
    }
    
    /*Tile Properties*/
@@ -331,6 +329,57 @@ transition: opacity 0.3s;
       padding-top:66.6666666667%;
       display:block;
       position:relative;
+   }
+   
+   .more a {
+	   color:#FFF;
+   }
+   
+   .more a:hover {
+	   color:#FFF;
+	   text-decoration:none;
+   }
+
+   
+   h5 {
+	 text-align:center;
+	 color:#FFF;
+	 font-size: 1.5em;
+	 padding:25px;  
+   }
+   
+   /* Reach Me */
+   
+   .reach {
+	  height:150px;
+	  width:100%;
+	  background-color:#FFF;
+	  padding-top: 35px; 
+	  border-radius: 20px;
+   }
+   
+   .button {
+	width: 6em;
+	background-color: #39C;
+	border-radius: 8%;
+	height: 60px;
+	padding: 15px;
+	margin-left: 20px;
+	color: #FFF;
+	display:inline;
+   }
+   
+   .button a {
+	color:#fff;   
+   }
+   
+   .button a:hover{
+	 color:#FFF;
+	 text-decoration:none; 
+   }
+   
+   .button:hover{
+   background-color:#0088cc;
    }
 
    /* Media Queries */
