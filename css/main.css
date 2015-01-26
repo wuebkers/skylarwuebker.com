@@ -456,6 +456,38 @@ transition: opacity 0.3s;
    	-webkit-transition:color .2s ease-out, background .2s ease-in;
 	}
 	
+	/* Work */
+	
+	.sort {
+		margin-top:6em;
+		margin-bottom:-3em;
+		color:#FFF;
+	}
+	
+	.sort li {
+		float:left;
+		text-decoration:none;
+		text-align:center;
+		list-style:none;
+		padding:2em;
+		font-size: 1em;
+		font-family:'Open sans' sans-serif;
+	}
+	
+	.sort a {
+		color:#FFF;
+	}
+	
+	.sort a:hover {
+		text-decoration:none;
+		color:#39C;
+		-o-transition:color .2s ease-out, background .2s ease-in;
+   		-ms-transition:color .2s ease-out, background .2s ease-in;
+   		-moz-transition:color .2s ease-out, background .2s ease-in;
+   		-webkit-transition:color .2s ease-out, background .2s ease-in;
+		
+	}
+	
 	/* footer */
 	
 	.footer {
