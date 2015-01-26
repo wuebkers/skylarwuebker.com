@@ -86,12 +86,6 @@
    	color:#39C;
    }
 
-   article {
-   	margin-top: 60%;
-   	margin-left:50px;
-   	font-size: 12px;
-   	color:#666;
-   }
    .sidebar-small{
    	width:70px;
    	z-index:100;
@@ -245,7 +239,14 @@ transition: opacity 0.3s;
    h2 {
 	 color:#FFF;
 	 text-align:center;
-	 font-size:7em 
+	 font-size:7em;
+	 font-family: 'Roboto', sans-serif; 
+	 font-weight:300;
+   }
+   
+   p {
+	 font-family:'Numans', sans-serif;
+	 font-size: .85em; 
    }
    
    .text {
@@ -283,7 +284,8 @@ transition: opacity 0.3s;
    h4 {
 	 text-align:center;
 	 font-size:3em;
-	 color:#39C;  
+	 color:#39C;
+	 font-family: 'Open Sans', sans-serif;  
    }
    
    .skills {
@@ -351,7 +353,7 @@ transition: opacity 0.3s;
    /* Reach Me */
    
    .reach {
-	  height:150px;
+	  height:250px;
 	  width:100%;
 	  background-color:#FFF;
 	  padding-top: 35px; 
@@ -379,11 +381,15 @@ transition: opacity 0.3s;
    
    .button:hover{
    background-color:#0088cc;
+   -o-transition:color .2s ease-out, background .2s ease-in;
+   	-ms-transition:color .2s ease-out, background .2s ease-in;
+   	-moz-transition:color .2s ease-out, background .2s ease-in;
+   	-webkit-transition:color .2s ease-out, background .2s ease-in;
    }
    
    .social {
 	height:100px;
-	margin-top:-30px;
+	margin-top:-120px;
 	}
    
    .facebook {
@@ -398,6 +404,10 @@ transition: opacity 0.3s;
 
 	.facebook:hover {
 		background-image:url(../photos/facebook_hover.png);
+		-o-transition:color .2s ease-out, background .2s ease-in;
+   	-ms-transition:color .2s ease-out, background .2s ease-in;
+   	-moz-transition:color .2s ease-out, background .2s ease-in;
+   	-webkit-transition:color .2s ease-out, background .2s ease-in;
 	}
 
 	.linkedin {
@@ -411,22 +421,40 @@ transition: opacity 0.3s;
 	}
 
 	.linkedin:hover {
-		background-image:url(../photos/linkedin_hover.png);
+	background-image:url(../photos/linkedin_hover.png);
+	-o-transition:color .2s ease-out, background .2s ease-in;
+   	-ms-transition:color .2s ease-out, background .2s ease-in;
+   	-moz-transition:color .2s ease-out, background .2s ease-in;
+   	-webkit-transition:color .2s ease-out, background .2s ease-in;
 	}
 
 	.github {
-		width:80px;
-		height:80px;
-		margin:5px;
-		float:left;
-		margin-left:5em;
-		background-size:cover;
-		background-image:url(../photos/github.png);
+	width:80px;
+	height:80px;
+	margin:5px;
+	float:left;
+	margin-left:5em;
+	background-size:cover;
+	background-image:url(../photos/github.png);
 	}
 
 	.github:hover {
-		background-image:url(../photos/github_hover.png);
+	background-image:url(../photos/github_hover.png);
+	-o-transition:color .2s ease-out, background .2s ease-in;
+   	-ms-transition:color .2s ease-out, background .2s ease-in;
+   	-moz-transition:color .2s ease-out, background .2s ease-in;
+   	-webkit-transition:color .2s ease-out, background .2s ease-in;
 	}
+	
+	/* footer */
+	
+	.footer {
+		height:60px;
+		width:100%;
+		background-color: #333;
+		color:#CCC;
+	}
+	
 
    /* Media Queries */
    @media (max-width:1050px) {
