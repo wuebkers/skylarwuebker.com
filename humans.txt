@@ -4,11 +4,12 @@
 # TEAM
 
     Skylar Wuebker - Designer, Developer - skylarwuebker.com
+    Andrew Krigline - Developer - akrigline.com
 
 # THANKS
 
-    <name>
-
+    Graham Goebel - Photography - grahamgoebelphoto.com
+    
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
