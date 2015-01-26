@@ -23,6 +23,11 @@
             #button {
                 display: block;
             }
+			
+			.logo {
+				display:none;
+			}
+			
         }
 
         #mobile-nav{
@@ -47,7 +52,6 @@
                     <li><a href="contact.html">CONTACT</a></li>
                     <li><a target=blank href="photos/SkylarResume.pdf">RESUME</a></li>
                 </ul>
-                <article>&copy; Skylar Wuebker 2014</article>
                 <div class="clear"></div>
             </nav>
 
@@ -73,16 +77,12 @@
                     <li><a href="contact.html">CONTACT</a></li>
                     <li><a href="photos/SkylarResume.pdf">RESUME</a></li>
                 </ul>
-                <article>&copy; Skylar Wuebker 2014</article>
             </nav>
 
             <section id="main" class="content col-xs-12">
-                <div id="about" class="content col-xs-12 col-sm-7 col-sm-offset-1">
-                	<h1>Contact</h1><br><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br>Phone: 419.953.0244 | Email: skylar@skylarwuebker.com
-                    </p>
-                </div>
-                <div id="contact" class="content col-xs-12 col-sm-7 col-sm-offset-1">
-						<h1>Let's Chat:</h1>
+            	<div class="blur col-xs-12">
+               		<span><h1>Let's Chat:</h1></span>
+                	<div id="contact" class="content col-xs-12 col-sm-3 col-sm-offset-2">
 							<span class="input input--minoru">
 								<input class="input__field input__field--yoko" type="text" id="input-16" />
 								<label class="input__label input__label--yoko" for="input-16">
@@ -101,7 +101,8 @@
 								<span class="input__label-content input__label-content--yoko">Subject</span>
 								</label>
 							</span>
-                </div>
+                	</div>
+               </div>
             </section>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -111,7 +112,6 @@
         <script src="js/vendor/isotope.pkgd.min.js"></script>
         <script src="js/vendor/jquery.sidr.min.js"></script>
         <script src="js/vendor/jquery.touchwipe.min.js"></script>
-        <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
