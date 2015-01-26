@@ -96,6 +96,7 @@
    	width:70px;
    	z-index:100;
    	position:fixed;
+      right:0;
    }
    #button img{
    	max-width: 100%
@@ -342,9 +343,6 @@ transition: opacity 0.3s;
   
 
 @media (max-width:768px){
-   	#main{
-		padding-left:90px;
-   	}
 }
 
    @media (max-width:630px) {
