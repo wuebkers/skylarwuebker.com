@@ -265,10 +265,14 @@ transition: opacity 0.3s;
    }
    
    .self {
-	 height:400px;
+	 height:500px;
 	 overflow:hidden;
+	 float:right;
 	 background-image:url(../photos/face.png);
-	 background-size:cover;  
+	 background-size: inherit;
+	 background-repeat: no-repeat; 
+	 background-position:center;
+	 margin-top:-450px; 
    }
    
    .pitch {
@@ -279,14 +283,13 @@ transition: opacity 0.3s;
    
    h4 {
 	 text-align:center;
-	 font-size:3em;  
+	 font-size:3em;
+	 color:#39C;  
    }
    
    .skills {
 	height:400px;
-	overflow:hidden;
-	float: right;
-	margin-top: -480px;   
+	overflow:hidden;  
    }
    
    .skills img {
