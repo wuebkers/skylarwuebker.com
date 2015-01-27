@@ -67,7 +67,7 @@ $(document).ready( function(){
 	$('.dayton').hover( 
 		//What happens when the mouse enters
 		function() {
-			$('.location').css('background-image', 'url(photos/dayton.jpg)');
+			$('.location').css('background-image', 'url(photos/dayton.png)');
 			$('.dayton').css('color', 'white');
 			$('.akron').css('color', 'white');
 			$('.akron').css('opacity', '.4');
@@ -75,7 +75,7 @@ $(document).ready( function(){
 		}, 
 		// What happens when the mouse leaves?
 		function() {
-			$('.location').css('background-image', 'url(photos/dayton.jpg)');
+			$('.location').css('background-image', 'url(photos/dayton.png)');
 			$('.dayton').css('color', '#FFF');
 			$('.akron').css('color', '#FFF');
 			$('.dayton').css('opacity', '1');
@@ -84,13 +84,13 @@ $(document).ready( function(){
 
 	$('.akron').hover(
 		function() {   
-			$('.location').css('background-image', 'url(photos/akron.jpg)');
+			$('.location').css('background-image', 'url(photos/akron.png)');
 			$('.dayton').css('color', 'white');
 			$('.dayton').css('opacity', '.4');
 			$('.akron').css('color', 'white');
 			$('.akron').css('opacity', '1');
 		}, function(){
-			$('.location').css('background-image', 'url(photos/akron.jpg)');
+			$('.location').css('background-image', 'url(photos/akron.png)');
 			$('.dayton').css('color', '#FFF');
 			$('.akron').css('color', '#FFF');
 			$('.akron').css('opacity', '1');
