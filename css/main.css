@@ -321,11 +321,8 @@ transition: opacity 0.3s;
 	 background-position:center;
 	 background-size:cover;
 	 background-repeat:no-repeat;  
+    transition: background-image 400ms
    }
-   
-   .location{
-	transition: all 400ms
-	}
    
    h6 {
 	color: #FFF;
