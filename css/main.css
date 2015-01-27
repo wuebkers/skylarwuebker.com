@@ -336,12 +336,12 @@ transition: opacity 0.3s;
    
    .dayton {
 	color:#3399CC;
-	display:inline;   
+	display:inline-block;   
    }
    
    .akron {
 	color:#3399CC;
-	display:inline;   
+	display:inline-block;   
    }
    
    /*Tile Properties*/
