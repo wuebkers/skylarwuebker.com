@@ -235,6 +235,7 @@ transition: opacity 0.3s;
    }
 
    .window {
+      height:100%;
 	   width:100%;
 	   background: url(../photos/sky-blur.jpg) fixed;
 	   background-size:cover;
