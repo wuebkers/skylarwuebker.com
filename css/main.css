@@ -236,6 +236,7 @@ transition: opacity 0.3s;
 
    .window {
 	   width:100%;
+	   min-height:100%;
 	   background: url(../photos/sky-blur.jpg) fixed;
 	   background-size:cover;
    }
@@ -298,7 +299,7 @@ transition: opacity 0.3s;
    
    h4 {
 	 text-align:center;
-	 font-size:3em;
+	 font-size:1.6em;
 	 color:#39C;
 	 font-family: 'Open Sans', sans-serif;  
    }
@@ -317,7 +318,7 @@ transition: opacity 0.3s;
    
    .location{
 	 width:100%;
-	 background:url(../photos/dayton-hover.jpg) fixed;
+	 background:url(../photos/dayton.jpg) fixed;
 	 background-position:center;
 	 background-size:cover;
 	 background-repeat:no-repeat;  
@@ -379,8 +380,15 @@ transition: opacity 0.3s;
       position:relative;
    }
    
+   .more {
+	 margin:1.5em;  
+   }
+   
    .more a {
 	   color:#FFF;
+	   font-family:'Open Sans' sans-serif;
+	   font-weight:300;
+	   font-size:.8em;
    }
    
    .more a:hover {
@@ -399,7 +407,7 @@ transition: opacity 0.3s;
    
    .reach {
 	  width:100%;
-	  height:10em;
+	  height:5.3em;
 	  background-color:#FFF;
 	  padding-top: 15px; 
    }
@@ -434,13 +442,14 @@ transition: opacity 0.3s;
 
    .social {
 	height:100px;
-	margin-top:0px;
+	margin-top:3em;;
 	}
    
    .facebook {
 	width:50px;
 	height:50px;
 	float:left;
+	margin-left:5.5em;
 	background-size:cover;
 	background-image:url(../photos/facebook.png);
 }
@@ -526,7 +535,7 @@ transition: opacity 0.3s;
 		width:100%;
 		background-color: #333;
 		color:#CCC;
-		position:fixed;
+		padding:10px;
 	}
 	
 
