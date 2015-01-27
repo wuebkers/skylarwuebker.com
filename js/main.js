@@ -64,24 +64,28 @@ $(document).scroll(function(){
     }
 });
 
-var b = $(".dayton").offset().top;
-var c = $(".akron").offset().top;
+var b = '.dayton';
+var c = '.akron';
 
-$(document).hover(function(){
-    if($(this).hover() = b)
+$(document).ready(function(){
+    if($(b).hover())
     {   
-       $('.location').css({"background":"url(photos/dayton-hover.jpg)"});
+       $('.location').css({"background":"url(photos/dayton-hover.jpg) fixed"});
+	   $('.dayton').css({"color":"white"});
+	   $('.akron').css({"color":"white"});
+    } else {
+       $('.location').css({"background":"url(photos/dayton.jpg) fixed"});
+	   $('.dayton').css({"color":"#3399CC"});
+	   $('.akron').css({"color":"#3399CC"});
+    };
+	
+	if($(c).hover())
+    {   
+       $('.location').css({"background":"url(photos/akron-hover.jpg) fixed"});
 	   $('.location a').css({"color":"white"});
     } else {
-       $('.location').css({"background":"url(photos/dayton.jpg)"});
-	   $('.location a').css({"color":"#3399CC"});
-    }
-	if($(this).hover() = c)
-    {   
-       $('.location').css({"background":"url(photos/akron-hover.jpg)"});
-	   $('.location a').css({"color":"white"});
-    } else {
-       $('.location').css({"background":"url(photos/akron.jpg)"});
-	   $('.location a').css({"color":"#3399CC"});
+       $('.location').css({"background":"url(photos/akron.jpg) fixed"});
+	   $('.dayton').css({"color":"#3399CC"});
+	   $('.akron').css({"color":"#3399CC"});
     }
 });
