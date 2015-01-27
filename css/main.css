@@ -323,6 +323,10 @@ transition: opacity 0.3s;
 	 background-repeat:no-repeat;  
    }
    
+   .location{
+	transition: all 400ms
+	}
+   
    h6 {
 	color: #FFF;
 	text-shadow: 3px 3px 20px rgba(0,0,0,0.5);
