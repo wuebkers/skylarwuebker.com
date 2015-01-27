@@ -317,6 +317,7 @@ transition: opacity 0.3s;
    
    .location{
 	 width:100%;
+	 background:url(../photos/dayton-hover.jpg) fixed;
 	 background-position:center;
 	 background-size:cover;
 	 background-repeat:no-repeat;  
@@ -335,12 +336,11 @@ transition: opacity 0.3s;
    }
    
    .dayton {
-	color:#3399CC;
 	display:inline-block;   
    }
    
    .akron {
-	color:#3399CC;
+	opacity:.4;
 	display:inline-block;   
    }
    

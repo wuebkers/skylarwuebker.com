@@ -71,13 +71,14 @@ $(document).ready( function(){
 			$('.dayton').css('color', 'white');
 			$('.akron').css('color', 'white');
 			$('.akron').css('opacity', '.4');
+			$('.dayton').css('opacity', '1');
 		}, 
 		// What happens when the mouse leaves?
 		function() {
 			$('.location').css('background-image', 'url(photos/dayton-hover.jpg)');
 			$('.dayton').css('color', '#FFF');
 			$('.akron').css('color', '#FFF');
-			$('.akron').css('opacity', '1');
+			$('.dayton').css('opacity', '1');
 		}
 	);
 
@@ -87,11 +88,12 @@ $(document).ready( function(){
 			$('.dayton').css('color', 'white');
 			$('.dayton').css('opacity', '.4');
 			$('.akron').css('color', 'white');
+			$('.akron').css('opacity', '1');
 		}, function(){
 			$('.location').css('background-image', 'url(photos/akron-hover.jpg)');
 			$('.dayton').css('color', '#FFF');
 			$('.akron').css('color', '#FFF');
-			$('.dayton').css('opacity', '1');
+			$('.akron').css('opacity', '1');
 		}
 	);
 });
