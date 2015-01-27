@@ -63,3 +63,25 @@ $(document).scroll(function(){
 	   $('.logo').css({"background-image":"url(photos/button-white.png)"});
     }
 });
+
+var b = $(".dayton").offset().top;
+var c = $(".akron").offset().top;
+
+$(document).hover(function(){
+    if($(this).hover() = b)
+    {   
+       $('.location').css({"background":"url(photos/dayton-hover.jpg)"});
+	   $('.location a').css({"color":"white"});
+    } else {
+       $('.location').css({"background":"url(photos/dayton.jpg)"});
+	   $('.location a').css({"color":"#3399CC"});
+    }
+	if($(this).hover() = c)
+    {   
+       $('.location').css({"background":"url(photos/akron-hover.jpg)"});
+	   $('.location a').css({"color":"white"});
+    } else {
+       $('.location').css({"background":"url(photos/akron.jpg)"});
+	   $('.location a').css({"color":"#3399CC"});
+    }
+});

@@ -280,14 +280,14 @@ transition: opacity 0.3s;
    }
    
    .self {
-	 height:500px;
+	 height:460px;
 	 overflow:hidden;
 	 float:right;
 	 background-image:url(../photos/face.png);
 	 background-size: inherit;
 	 background-repeat: no-repeat; 
 	 background-position:center;
-	 margin-top:-450px; 
+	 margin-top:-454px; 
    }
    
    .pitch {
@@ -311,6 +311,36 @@ transition: opacity 0.3s;
    .skills img {
 	 margin-left:5.5em;
 	 margin-top:3.5em;
+   }
+   
+   /* Location */
+   
+   .location{
+	 width:100%;
+	 background:url(../photos/dayton.jpg);
+	 background-position:center;
+	 background-size:cover;
+	 background-repeat:no-repeat;  
+   }
+   
+   h6 {
+	color: #FFF;
+	text-align:center;
+	font-size:8em;
+	font-family:'Open Sans' sans-serif;
+	font-weight:500;
+	padding: 2em;
+	margin:0;
+   }
+   
+   .dayton {
+	color:#3399CC;
+	display:inline;   
+   }
+   
+   .akron {
+	color:#3399CC;
+	display:inline;   
    }
    
    /*Tile Properties*/
@@ -426,7 +456,7 @@ transition: opacity 0.3s;
 		width:50px;
 		height:50px;
 		float:left;
-		margin-left:9.5em;
+		margin-left:4.5em;
 		background-size:cover;
 		background-image:url(../photos/linkedin.png);
 	}
@@ -443,7 +473,7 @@ transition: opacity 0.3s;
 	width:50px;
 	height:50px;
 	float:left;
-	margin-left:9.5em;
+	margin-left:4.5em;
 	background-size:cover;
 	background-image:url(../photos/github.png);
 	}
