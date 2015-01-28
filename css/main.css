@@ -287,8 +287,8 @@
    
    .pitch {
 	 padding:1.5em;
-	 margin-top:10px;
-	 line-height: 1.6em;  
+	 margin-top:-35em;
+	 line-height: 1.6em; 
    }
    
    h4 {
@@ -300,12 +300,121 @@
    
    .skills {
 	height:100%;
-	overflow:hidden;  
+	margin-left:3em;
+	overflow:hidden; 
    }
    
-   .skills img {
-	 margin-left:5.5em;
-	 margin-top:3.5em;
+   .web-icon {
+	   margin-left:5.5em;
+	   margin-top:3.5em;
+	   border-radius:50%;
+	   width:100px;
+	   height:100px;
+	   background-image:url(../photos/web.png);
+	   background-size:cover;
+	   background-position:center;
+	   background-repeat:no-repeat;
+	   background-color:none;
+	   margin-right:0;
+   }
+      .web-icon:hover {
+	   background-image:url(../photos/web-hover.png);
+	   background-color: #39C;
+	   transition: background-image 400ms;
+	   transition: background-color 400ms;
+   }
+   .development-icon {
+	   margin-top:3.5em;
+	   border-radius:50%;
+	   width:100px;
+	   height:100px;
+	   background-image:url(../photos/development.png);
+	   background-size:cover;
+	   background-position:center;
+	   background-repeat:no-repeat;
+	   background-color:none;
+	   float:right;
+	   margin-right:0;	   
+   }
+    .development-icon:hover {
+	   background-image:url(../photos/development-hover.png);
+	   background-color: #39C;
+	   transition: background-image 400ms;
+	   transition: background-color 400ms;
+   }
+      .print-icon {
+	   margin-left:5.5em;
+	   margin-top:3.5em;
+	   border-radius:50%;
+	   width:100px;
+	   height:100px;
+	   background-image:url(../photos/print.png);
+	   background-size:cover;
+	   background-position:center;
+	   background-repeat:no-repeat;
+	   background-color:none;
+   }
+     .print-icon:hover {
+	   background-image:url(../photos/print-hover.png);
+	   background-color: #39C;
+	   transition: background-image 400ms;
+	   transition: background-color 400ms;
+   }
+      .branding-icon {
+	   margin-top:3.5em;
+	   border-radius:50%;
+	   width:100px;
+	   height:100px;
+	   background-image:url(../photos/branding.png);
+	   background-size:cover;
+	   background-position:center;
+	   background-repeat:no-repeat;
+	   background-color:none;
+	   transition: background-image 400ms;
+	   float:right;
+   }
+     .branding-icon:hover {
+	   background-image:url(../photos/branding-hover.png);
+	   background-color: #39C;
+	   transition: background-image 400ms;
+	   transition: background-color 400ms;
+   }
+      .identity-icon {
+	   margin-left:5.5em;
+	   margin-top:3.5em;
+	   border-radius:50%;
+	   width:100px;
+	   height:100px;
+	   background-image:url(../photos/identity.png);
+	   background-size:cover;
+	   background-position:center;
+	   background-repeat:no-repeat;
+	   background-color:none;
+   }
+     .identity-icon:hover {
+	   background-image:url(../photos/identity-hover.png);
+	   background-color: #39C;
+	   transition: background-image 400ms;
+	   transition: background-color 400ms;
+   }
+      .graphic-icon {
+	   margin-top:3.5em;
+	   border-radius:50%;
+	   width:100px;
+	   height:100px;
+	   background-image:url(../photos/graphic.png);
+	   background-size:cover;
+	   background-position:center;
+	   background-repeat:no-repeat;
+	   background-color:none;
+	   transition: background-image 400ms;
+	   float:right;
+   }
+     .graphic-icon:hover {
+	   background-image:url(../photos/graphic-hover.png);
+	   background-color: #39C;
+	   transition: background-image 400ms;
+	   transition: background-color 400ms;
    }
    
    /* Location */
@@ -316,7 +425,7 @@
 	 background-position:center;
 	 background-size:cover;
 	 background-repeat:no-repeat;  
-    transition: background-image 400ms
+    transition: background-image 400ms;
    }
    
    h6 {
