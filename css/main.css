@@ -545,7 +545,9 @@
 
    .social {
 	height:100px;
-	margin-top:3em;;
+	margin-top:3em;
+	display:inline-block;
+	text-align:center;
 	}
    
    .facebook {
@@ -554,6 +556,8 @@
 	float:left;
 	background-size:cover;
 	background-image:url(../photos/facebook.png);
+	display:inline-block;
+	text-align:center;
 }
 
 	.facebook:hover {
@@ -571,6 +575,8 @@
 		margin-left:4.5em;
 		background-size:cover;
 		background-image:url(../photos/linkedin.png);
+		display:inline-block;
+		text-align:center;
 	}
 
 	.linkedin:hover {
@@ -588,6 +594,8 @@
 	margin-left:4.5em;
 	background-size:cover;
 	background-image:url(../photos/github.png);
+	display:inline-block;
+	text-align:center;
 	}
 
 	.github:hover {
@@ -612,6 +620,7 @@
 		text-align:center;
 		list-style:none;
 		padding:2em;
+		padding-left:0;
 		font-size: 1em;
 		font-family:'Open sans' sans-serif;
 	}
