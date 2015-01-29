@@ -125,6 +125,11 @@
 	background:url(../photos/sky-blur.jpg) fixed;
 	padding:0;	
 	}
+	
+	#message {
+	 float:right;
+	 margin-top:-14.5em;	
+	}
 
    #contact {
    height:400px;  
