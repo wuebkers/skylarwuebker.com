@@ -132,7 +132,7 @@
 	}
 
    #contact {
-   height:400px;  
+   height:350px;  
    }
 /* Yoko */
 .input__field--yoko {
@@ -274,26 +274,25 @@
    /*About*/
    .about {
 	 width:100%;
-	 height:520px;
 	 background-color:#fff;
 	 overflow:hidden;  
    }
    
    .self {
-	 height:460px;
+	 height:660px;
 	 overflow:hidden;
 	 float:right;
 	 background-image:url(../photos/face.png);
-	 background-size: inherit;
+	 background-size: cover;
 	 background-repeat: no-repeat; 
 	 background-position:center;
-	 margin-top:-454px; 
+	 margin-top:1em; 
    }
    
    .pitch {
 	 padding:1.5em;
-	 margin-top:-35em;
 	 line-height: 1.6em; 
+	 margin-top:8em;
    }
    
    h4 {
@@ -301,125 +300,6 @@
 	 font-size:1.6em;
 	 color:#39C;
 	 font-family: 'Open Sans', sans-serif;  
-   }
-   
-   .skills {
-	height:100%;
-	margin-left:3em;
-	overflow:hidden; 
-   }
-   
-   .web-icon {
-	   margin-left:5.5em;
-	   margin-top:3.5em;
-	   border-radius:50%;
-	   width:100px;
-	   height:100px;
-	   background-image:url(../photos/web.png);
-	   background-size:cover;
-	   background-position:center;
-	   background-repeat:no-repeat;
-	   background-color:none;
-	   margin-right:0;
-   }
-      .web-icon:hover {
-	   background-image:url(../photos/web-hover.png);
-	   background-color: #39C;
-	   transition: background-image 400ms;
-	   transition: background-color 400ms;
-   }
-   .development-icon {
-	   margin-top:3.5em;
-	   border-radius:50%;
-	   width:100px;
-	   height:100px;
-	   background-image:url(../photos/development.png);
-	   background-size:cover;
-	   background-position:center;
-	   background-repeat:no-repeat;
-	   background-color:none;
-	   float:right;
-	   margin-right:0;	   
-   }
-    .development-icon:hover {
-	   background-image:url(../photos/development-hover.png);
-	   background-color: #39C;
-	   transition: background-image 400ms;
-	   transition: background-color 400ms;
-   }
-      .print-icon {
-	   margin-left:5.5em;
-	   margin-top:3.5em;
-	   border-radius:50%;
-	   width:100px;
-	   height:100px;
-	   background-image:url(../photos/print.png);
-	   background-size:cover;
-	   background-position:center;
-	   background-repeat:no-repeat;
-	   background-color:none;
-   }
-     .print-icon:hover {
-	   background-image:url(../photos/print-hover.png);
-	   background-color: #39C;
-	   transition: background-image 400ms;
-	   transition: background-color 400ms;
-   }
-      .branding-icon {
-	   margin-top:3.5em;
-	   border-radius:50%;
-	   width:100px;
-	   height:100px;
-	   background-image:url(../photos/branding.png);
-	   background-size:cover;
-	   background-position:center;
-	   background-repeat:no-repeat;
-	   background-color:none;
-	   transition: background-image 400ms;
-	   float:right;
-   }
-     .branding-icon:hover {
-	   background-image:url(../photos/branding-hover.png);
-	   background-color: #39C;
-	   transition: background-image 400ms;
-	   transition: background-color 400ms;
-   }
-      .identity-icon {
-	   margin-left:5.5em;
-	   margin-top:3.5em;
-	   border-radius:50%;
-	   width:100px;
-	   height:100px;
-	   background-image:url(../photos/identity.png);
-	   background-size:cover;
-	   background-position:center;
-	   background-repeat:no-repeat;
-	   background-color:none;
-   }
-     .identity-icon:hover {
-	   background-image:url(../photos/identity-hover.png);
-	   background-color: #39C;
-	   transition: background-image 400ms;
-	   transition: background-color 400ms;
-   }
-      .graphic-icon {
-	   margin-top:3.5em;
-	   border-radius:50%;
-	   width:100px;
-	   height:100px;
-	   background-image:url(../photos/graphic.png);
-	   background-size:cover;
-	   background-position:center;
-	   background-repeat:no-repeat;
-	   background-color:none;
-	   transition: background-image 400ms;
-	   float:right;
-   }
-     .graphic-icon:hover {
-	   background-image:url(../photos/graphic-hover.png);
-	   background-color: #39C;
-	   transition: background-image 400ms;
-	   transition: background-color 400ms;
    }
    
    /* Location */
@@ -559,6 +439,7 @@
 	width:50px;
 	height:50px;
 	float:left;
+	margin-left:1.5em;
 	background-size:cover;
 	background-image:url(../photos/facebook.png);
 	display:inline-block;
@@ -586,6 +467,25 @@
 
 	.linkedin:hover {
 	background-image:url(../photos/linkedin_hover.png);
+	-o-transition:color .2s ease-out, background .2s ease-in;
+   	-ms-transition:color .2s ease-out, background .2s ease-in;
+   	-moz-transition:color .2s ease-out, background .2s ease-in;
+   	-webkit-transition:color .2s ease-out, background .2s ease-in;
+	}
+
+	.designsperation {
+	width:50px;
+	height:50px;
+	float:left;
+	margin-left:4.5em;
+	background-image:url(../photos/designsperation.png);
+	background-size: cover;
+	display:inline-block;
+	text-align:center;
+}
+
+	.designsperation:hover {
+	background-image:url(../photos/designsperation-hover.png);
 	-o-transition:color .2s ease-out, background .2s ease-in;
    	-ms-transition:color .2s ease-out, background .2s ease-in;
    	-moz-transition:color .2s ease-out, background .2s ease-in;
@@ -662,6 +562,26 @@
    	}
 
    }
+
+@media screen and (max-width:991px) {
+	.self {
+		display:none;
+	}
+
+	.pitch {
+		margin-top:2em;
+	}
+
+	.about {
+		min-height:300px;
+	}
+}
+
+@media screen and (max-width:795px) {
+	.location h6 {
+		padding:0;
+	}
+}
   
 
 @media (max-width:768px){
